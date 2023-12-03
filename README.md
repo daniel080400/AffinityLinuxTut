@@ -93,7 +93,7 @@ C:/Windows/System32/WinMetadata
     ```bash
     cd ~/Documents/ElementalWarrior-wine/wine64-build/
     
-    /home/USER/Documents/ElementalWarrior-wine/configure --prefix=/home/USER/Documents/ElementalWarrior-wine/wine-install --enable-win64
+    /home/$USER/Documents/ElementalWarrior-wine/configure --prefix=/home/$USER/Documents/ElementalWarrior-wine/wine-install --enable-win64
     
     # Run in threads to speed up, up this number if you have a powerful PC
     make -j 8 
@@ -105,7 +105,7 @@ C:/Windows/System32/WinMetadata
     ```bash
     cd ~/Documents/ElementalWarrior-wine/wine32-build/
     
-    PKG_CONFIG_PATH=/usr/lib32/pkgconfig /home/USER/Documents/ElementalWarrior-wine/configure --with-wine64=/home/USER/Documents/ElementalWarrior-wine/wine64-build --prefix=/home/USER/Documents/ElementalWarrior-wine/wine-install
+    PKG_CONFIG_PATH=/usr/lib32/pkgconfig /home/$USER/Documents/ElementalWarrior-wine/configure --with-wine64=/home/$USER/Documents/ElementalWarrior-wine/wine64-build --prefix=/home/$USER/Documents/ElementalWarrior-wine/wine-install
     
     # Run in threads to speed up, up this number if you have a powerful PC
     make -j 8
@@ -157,7 +157,7 @@ C:/Windows/System32/WinMetadata
 1. Copy the WinMetadata/ folder into the drive_c in this config, where ever $PATH_TO is:
     
     ```bash
-    cp -r /PATH_TO/WinMetadata/ ~/wine/affinity/drive_c/windows/system32/
+    cp -r /$PATH_TO/WinMetadata/ ~/wine/affinity/drive_c/windows/system32/
     ```
     
     As mentioned above, just rip it from any Windows machine (`C:/Windows/System32/WinMetadata`)
