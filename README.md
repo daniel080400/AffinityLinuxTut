@@ -2,7 +2,7 @@
 
 ![af_on_linux](af_on_linux.jpg)
 
-This is a step-by-step tutorial to make you install Affinity apps on Linux, covers some issues you might run into when following the [original guide](https://forum.affinity.serif.com/index.php?/topic/182758-affinity-suite-v204-on-linux-wine/). And I also do things differently, so keep that in mind.
+This is a step-by-step tutorial to make you install Affinity apps on Linux, covers some issues you might run into when following the [original guide](https://forum.affinity.serif.com/index.php?/topic/182758-affinity-suite-v204-on-linux-wine/). And I also do things differently, so keep that in mind. This repo is intend to guide myself to setup Affinity when I need to do it in the near future, but I'll love to see anyone else can benifit from this guide.
 
 Thanks to James McDonnell's work [ElementalWarrior-wine](https://gitlab.winehq.org/ElementalWarrior/wine), this custom build of wine can run Affinity apps in linux with basic functions (saving, editing) working properly. Which becomes the best option to run Affinity on Linux for now, since other alternatives like [Lutris](https://lutris.net/) still suffers to get the directory linking working, [Bottles](https://usebottles.com/) still glitches, [Winapps](https://github.com/Fmstrat/winapps) is hard to setup if you need hardware acceleration.
 
