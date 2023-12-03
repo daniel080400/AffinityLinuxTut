@@ -1,5 +1,11 @@
 # Install Affinity apps (Designer / Photo) on Debian Linux
 
+This is a step-by-step tutorial to make you install Affinity apps on Linux, covers some issues you might run into when following the [original guide](https://forum.affinity.serif.com/index.php?/topic/182758-affinity-suite-v204-on-linux-wine/). And I also do things differently so keep that in mind.
+
+Thanks to James McDonnell's work [ElementalWarrior-wine](https://gitlab.winehq.org/ElementalWarrior/wine), this custom build of wine can run Affinity apps in linux with basic functions (saving, editing) working properly. Which becomes the best option to run Affinity on Linux for now, since other alternatives like [Lutris](https://lutris.net/) still suffers to get the directory linking working, [Bottles](https://usebottles.com/) still glitches, [Winapps](https://github.com/Fmstrat/winapps) is hard to setup if you need hardware acceleration.
+
+Big shout out to <b>James McDonnell</b>, he's doing god's work.
+
 # Reference
 
 [Affinity Suite v2.0.4 on linux [ Wine ]](https://forum.affinity.serif.com/index.php?/topic/182758-affinity-suite-v204-on-linux-wine/)
@@ -323,7 +329,7 @@ If you’re using Nvidia’s graphics card as new as 30 series, chances are Debi
     dhclient eth0
     ```
     
-4. Edit **/etc/apt/sources.list** with your favorite editor, add contrib non-free non-free-firmware in all sources
+4. Edit **/etc/apt/sources.list** with your favorite editor, add contrib non-free non-free-firmware in all repos
     
     ```bash
     # /etc/apt/sources.list
