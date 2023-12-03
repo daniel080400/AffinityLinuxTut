@@ -31,7 +31,7 @@ C:/Windows/System32/WinMetadata
     
     <aside>
     💡 For details or other distros, see:
-    [https://wiki.winehq.org/Building_Wine#Satisfying_Build_Dependencies](https://wiki.winehq.org/Building_Wine#Satisfying_Build_Dependencies)
+    https://wiki.winehq.org/Building_Wine#Satisfying_Build_Dependencies
     
     </aside>
     
