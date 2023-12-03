@@ -189,8 +189,7 @@ systemctl reboot
     
     Then set the dpi like this(Higher = Larger on screen):
     
-    ![Untitled](Install%20Affinity%20apps%20(Designer%20Photo)%20on%20Debian%20L%20954e9454557547ccb4cdf70f754cf90d/Untitled.png)
-    
+    ![wine_dpi](wine_dpi.png)
 
 ## Create .desktop shortcuts
 
@@ -210,7 +209,7 @@ If Wine failed to auto create .desktop file shortcuts properly (Which mostly **W
     
     Now you should have it like this in **~/wine/affinity**:
     
-    ![Untitled](Install%20Affinity%20apps%20(Designer%20Photo)%20on%20Debian%20L%20954e9454557547ccb4cdf70f754cf90d/Untitled%201.png)
+    ![wine_af_dir](wine_af_dir.png)
     
 2. Remove broken .desktop files in **~/.local/share/applications :**
     
@@ -289,7 +288,7 @@ If Wine failed to auto create .desktop file shortcuts properly (Which mostly **W
 
 1. Affinity apps should be good to go right now:
 
-![Untitled](Install%20Affinity%20apps%20(Designer%20Photo)%20on%20Debian%20L%20954e9454557547ccb4cdf70f754cf90d/Untitled%202.png)
+![af_gtg](af_gtg.png)
 
 ---
 
