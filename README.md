@@ -15,7 +15,7 @@ You will need to get WinMetadata/ files from a windows virtual machine, partitio
 <aside>
 💡 For convenience, the needed file is provided below:
 
-[WinMetadata.zip](Install%20Affinity%20apps%20(Designer%20Photo)%20on%20Debian%20L%20954e9454557547ccb4cdf70f754cf90d/WinMetadata.zip)
+[WinMetadata.zip](WinMetadata.zip)
 
 </aside>
 
