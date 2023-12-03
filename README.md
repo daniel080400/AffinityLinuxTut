@@ -49,7 +49,7 @@ C:/Windows/System32/WinMetadata
     sudo apt install git
     
     # Common graphics library
-    sudo apt install nvidia-driver libvulkan1
+    sudo apt install libvulkan1
     
     # Common build dependencies
     sudo apt install gcc flex bison
