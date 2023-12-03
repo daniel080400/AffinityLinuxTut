@@ -42,32 +42,32 @@ C:/Windows/System32/WinMetadata
     </aside>
     
 
-```bash
-# You need git.
-sudo apt install git
-
-# Common graphics library
-sudo apt install nvidia-driver libvulkan1
-
-# Common build dependencies
-sudo apt install gcc flex bison
-
-# Wine
-sudo apt install wine winetricks
-
-# Wine build dependencies (x86 specific)
-sudo apt install libx11-dev:i386 libfreetype6-dev:i386
-
-# Wine build dependencies - necessary
-sudo apt install gcc-multilib gcc-mingw-w64 libasound2-dev libdbus-1-dev libfontconfig-dev libfreetype-dev libgnutls28-dev libgl-dev libunwind-dev libx11-dev libxcomposite-dev libxcursor-dev libxfixes-dev libxi-dev libxrandr-dev libxrender-dev libxext-dev
-
-# Wine build dependencies - needed often
-sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libosmesa6-dev libsdl2-dev libvulkan-dev
-
-# (Optional) reboot the system for drivers to work
-systemctl reboot
-
-```
+    ```bash
+    # You need git.
+    sudo apt install git
+    
+    # Common graphics library
+    sudo apt install nvidia-driver libvulkan1
+    
+    # Common build dependencies
+    sudo apt install gcc flex bison
+    
+    # Wine
+    sudo apt install wine winetricks
+    
+    # Wine build dependencies (x86 specific)
+    sudo apt install libx11-dev:i386 libfreetype6-dev:i386
+    
+    # Wine build dependencies - necessary
+    sudo apt install gcc-multilib gcc-mingw-w64 libasound2-dev libdbus-1-dev libfontconfig-dev libfreetype-dev libgnutls28-dev libgl-dev libunwind-dev libx11-dev libxcomposite-dev libxcursor-dev libxfixes-dev libxi-dev libxrandr-dev libxrender-dev libxext-dev
+    
+    # Wine build dependencies - needed often
+    sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libosmesa6-dev libsdl2-dev libvulkan-dev
+    
+    # (Optional) reboot the system for drivers to work
+    systemctl reboot
+    
+    ```
 
 1. Get ElementalWarrior wine fork:
     
@@ -294,7 +294,7 @@ If Wine failed to auto create .desktop file shortcuts properly (Which mostly **W
 
 1. Affinity apps should be good to go right now:
 
-![af_gtg](af_gtg.png)
+    ![af_gtg](af_gtg.png)
 
 ---
 
